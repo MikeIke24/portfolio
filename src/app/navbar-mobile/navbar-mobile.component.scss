@@ -45,9 +45,9 @@ $gold:rgb(237, 150, 2) !global;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     .nav-box {
-      margin: 1rem 0;
+      margin: 1.5rem 0;
       flex-grow: 1;
       text-align: center;
       a {
@@ -73,6 +73,9 @@ $gold:rgb(237, 150, 2) !global;
       a:hover+.nav-underline {
         width: 100%;
       }
+    }
+    .nav-box-home-mobile{
+      margin-top:-2rem;
     }
   }
 }

@@ -15,7 +15,7 @@ $gold:rgb(237, 150, 2) !global;
   .title {
     color: white;
     text-align: center;
-    font-size: 4rem;
+    font-size: 8rem;
     letter-spacing: 0.3rem;
     font-weight: 200;
     text-shadow: 0px 0px 2rem rgba(0, 0, 0, 1);
@@ -23,6 +23,7 @@ $gold:rgb(237, 150, 2) !global;
   .sub-title {
     color: white;
     text-align: center;
+    font-size:6rem;
     font-weight: 200;
     letter-spacing: 0.1rem;
     text-shadow: 0px 0px 2rem rgba(0, 0, 0, 1);
@@ -40,18 +41,18 @@ $gold:rgb(237, 150, 2) !global;
     }
     .btn {
       color: white;
-      $btnBorder: 0.08rem !global;
+      $btnBorder: 0.1rem !global;
       border: solid $btnBorder $gold;
-      $btnWidth: 8rem !global;
-      width: 8rem;
-      padding: 0.5rem 0;
-      margin: 0 0.7rem;
+      $btnWidth: 14rem !global;
+      width: $btnWidth;
+      padding: 1rem 0;
+      margin: 0 2rem;
       position: relative;
       transition: all 0.7s ease;
       box-sizing: content-box;
     }
     .btn-text {
-      font-size: 1.2rem;
+      font-size: 2rem;
       letter-spacing: 0.1rem;
       font-weight: 200;
       z-index: 1;

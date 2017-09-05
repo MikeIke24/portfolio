@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
 import { TypeWriterComponent } from './home/type-writer/type-writer.component';
+import { ToTopComponent } from './to-top/to-top.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TypeWriterComponent } from './home/type-writer/type-writer.component';
     ContactComponent,
     EducationComponent,
     NavbarMobileComponent,
-    TypeWriterComponent
+    TypeWriterComponent,
+    ToTopComponent
   ],
   imports: [
     BrowserModule,

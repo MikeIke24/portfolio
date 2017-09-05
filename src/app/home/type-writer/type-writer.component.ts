@@ -69,14 +69,14 @@ export class TypeWriterComponent implements OnInit {
                 clearInterval(eraseTimer);
                 setTimeout(() => {
                   _this.textTimer();
-                }, _this.randomTime(1000, 1200));
+                }, 1500);
 
               }
-            }, _this.randomTime(80, 85));
-          }, _this.randomTime(1000, 1200));
+            },60);
+          },1500);
 
         }
-      }, this.randomTime(80, 85));
+      }, 75);
   }
 
   ngOnInit() {
