@@ -10,12 +10,14 @@ export class AppComponent {
 }
 setTimeout(function() {
   let loadingPage = document.getElementById('landing-screen')
-  loadingPage.style.transition = 'opacity 1s ease-out';
-  loadingPage.style.opacity = '0';
+  loadingPage.style.transition = 'all 1s ease-out';
   setTimeout(function() {
-    loadingPage.style.display = 'none';
+    loadingPage.style.opacity = '0';
+    setTimeout(function(){
+      loadingPage.parentNode.removeChild(loadingPage);
+    },1000)
   }, 700);
-}, randomTime(500,1200));
+}, randomTime(1000,1000));
 
 function randomTime(min:number,max:number):number{
   return Math.floor((Math.random() * max) + min);

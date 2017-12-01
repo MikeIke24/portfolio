@@ -11,7 +11,7 @@ import {
 export class TypeWriterComponent implements OnInit {
   constructor() {}
   typing: string = '';
-  textArray = ['Web Developer', 'Software Developer', 'Chemical Engineer', 'Graphic Designer', 'Lifelong Student'];
+  textArray = ['Web Developer.', 'Software Developer.', 'Chemical Engineer.', 'Graphic Designer.', 'Lifelong Student.'];
   count: number = 0;
   sentence: number = 0;
   initializeAnimation() {
@@ -69,14 +69,14 @@ export class TypeWriterComponent implements OnInit {
                 clearInterval(eraseTimer);
                 setTimeout(() => {
                   _this.textTimer();
-                }, 1500);
+                }, 1000);
 
               }
-            },60);
-          },1500);
+            },50);
+          },1000);
 
         }
-      }, 75);
+      }, 50);
   }
 
   ngOnInit() {

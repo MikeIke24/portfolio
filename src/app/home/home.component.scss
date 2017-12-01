@@ -1,81 +1,21 @@
-$gold:rgb(237, 150, 2) !global;
 
-
+$gold:rgb(237,
+150,
+2) !global;
 .home-contain {
   width: 100%;
   height: 100vh;
-  background: url('https://farm5.staticflickr.com/4432/36452147360_d001d13f84_k.jpg') no-repeat center center;
-  background-size: cover;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 25%, rgba(0, 0, 0, 0.7) 42%, rgba(0, 0, 0, 0.55) 61%, rgba(0, 0, 0, 0.35) 100%), url('https://farm5.staticflickr.com/4432/36452147360_d001d13f84_k.jpg') no-repeat center center;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  .title {
-    color: white;
-    text-align: center;
-    font-size: 8rem;
-    letter-spacing: 0.3rem;
-    font-weight: 200;
-    text-shadow: 0px 0px 2rem rgba(0, 0, 0, 1);
-  }
-  .sub-title {
-    color: white;
-    text-align: center;
-    font-size:6rem;
-    font-weight: 200;
-    letter-spacing: 0.1rem;
-    text-shadow: 0px 0px 2rem rgba(0, 0, 0, 1);
-  }
-  .btn-contain {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 5rem;
-    transition: all 0.5s ease;
-    a {
-      text-decoration: none;
-    }
-    .btn {
-      color: white;
-      $btnBorder: 0.1rem !global;
-      border: solid $btnBorder $gold;
-      $btnWidth: 14rem !global;
-      width: $btnWidth;
-      padding: 1rem 0;
-      margin: 0 2rem;
-      position: relative;
-      transition: all 0.7s ease;
-      box-sizing: content-box;
-    }
-    .btn-text {
-      font-size: 2rem;
-      letter-spacing: 0.1rem;
-      font-weight: 200;
-      z-index: 1;
-      position: relative;
-      transition: all 0.5s ease;
-    }
-    .btn:hover {
-      background-color: $gold;
-      border-radius:2.5rem;
-    }
-    .btn:hover>.btn-text{
-      text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.57);
-      font-weight: 300;
-    }
-  }
+  background-color:whitesmoke;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
+  -moz-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
+  box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
 }
 
-@media only screen and (max-width: 500px) {
-  .btn-contain {
-    flex-direction: column !important;
-    margin-top: 4rem !important;
-    .btn {
-      margin-bottom: 1.5rem !important;
-    }
-  }
+.arrow {
+  color:#34495e;
+  font-size:4rem;
+  position: relative;
+  top:+50vh;
+  left:+50%;
 }

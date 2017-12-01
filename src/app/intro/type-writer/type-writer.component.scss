@@ -1,4 +1,4 @@
-$fontSize:3rem;
+$fontSize:1.5rem;
 #typing-target{
   font-size:$fontSize;
   letter-spacing:0.1rem;
@@ -6,15 +6,16 @@ $fontSize:3rem;
   color:white;
 }
 #cursor{
-  width:$fontSize*0.35;
-  height:($fontSize) - (0.5rem);
+  width:$fontSize*0.1;
+  height:($fontSize) - ($fontSize*0.05);
   display:inline-block;
   background-color:white;
    animation-name: cursorFade;
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
     position:relative;
-    top:+0.2rem;
+    top:+($fontSize*0.05);
+    left:+0.1rem;
 }
 @keyframes cursorFade {
     0%   {opacity: 1;}

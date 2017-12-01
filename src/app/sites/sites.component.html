@@ -1,3 +1,23 @@
-<p>
-  sites works!
-</p>
+<section id="sites-container">
+    <div class="section-header">
+        <div class="section-title-container">
+            <h2 class="section-title">SITES</h2>
+        </div>
+      </div>
+  <div class="info-container">
+      <h3 class="info-title">A collection of my websites.</h3>
+      <h4 class="info-info">Hover for info. Click for a sample.</h4>
+  </div>
+  <div class="my-sites-container">
+    <div id="tiles-container">
+      <div class="tile" *ngFor="let site of sites" id="tileWidth">
+        <div class="tile-overlay"></div>
+        <div class="tile-text">
+            <h4 class="site-name">{{site.name}}</h4>
+            <div class="underline"></div>
+          <h5 class="site-short-desc">{{site.shortDesc}}</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

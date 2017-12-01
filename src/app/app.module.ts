@@ -13,8 +13,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { NavbarMobileComponent } from './navbar-mobile/navbar-mobile.component';
-import { TypeWriterComponent } from './home/type-writer/type-writer.component';
+import { TypeWriterComponent } from './intro/type-writer/type-writer.component';
 import { ToTopComponent } from './to-top/to-top.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ToTopComponent } from './to-top/to-top.component';
     EducationComponent,
     NavbarMobileComponent,
     TypeWriterComponent,
-    ToTopComponent
+    ToTopComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,

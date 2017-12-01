@@ -1,9 +1,13 @@
- #landing-screen {
-   text-align: center;
-   color: white;
-   width: 100%;
- }
-
+$green:#2ecc71 !global;
+#landing-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color:whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
  app-navbar {
    position: fixed;
    width: 100%;

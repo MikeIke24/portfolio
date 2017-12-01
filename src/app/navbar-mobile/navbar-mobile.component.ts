@@ -23,13 +23,13 @@ class Sidebar {
 
   openSidebar(btnId, sidebarId) {
     document.getElementById(btnId).addEventListener('click', function () {
-      document.getElementById(sidebarId).style.transition = "all 1s";
+      document.getElementById(sidebarId).style.transition = "all 0.5s ease";
       document.getElementById(sidebarId).style.right = "0";
     });
   }
   closeSidebar(btnId, sidebarId) {
     document.getElementById(btnId).addEventListener('click', function () {
-      document.getElementById(sidebarId).style.transition = "all 1s";
+      document.getElementById(sidebarId).style.transition = "all 0.5s ease";
       document.getElementById(sidebarId).style.right = "-20rem";
     });
   }

@@ -39,6 +39,7 @@ $gold:rgb(237, 150, 2) !global;
     padding-top: 0.5rem;
   }
   .nav-list {
+    height:90%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -76,6 +77,36 @@ $gold:rgb(237, 150, 2) !global;
     }
     .nav-box-home-mobile{
       margin-top:-2rem;
+    }
+    #logo {
+      background-color: rgba(237, 150, 2, 0);
+      .logo-pic {
+        height: 100%;
+        width: 3.5rem;
+        margin: auto;
+        opacity:0.8;
+      }
+  }
+    #home .nav-underline {
+      background-color: #ecf0f1;
+    }
+    #intro .nav-underline{
+      background-color: #1abc9c;
+    }
+    #sites .nav-underline{
+      background-color: #2ecc71;
+    }
+    #designs .nav-underline{
+      background-color: #3498db;
+    }
+    #projects .nav-underline{
+      background-color: #9b59b6;
+    }
+    #education .nav-underline{
+      background-color: #e74c3c;
+    }
+    #contact .nav-underline{
+      background-color: #f39c12;
     }
   }
 }
