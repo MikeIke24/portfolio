@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
@@ -82,7 +83,7 @@ video {
 html {
   font-family: 'Fira Sans', sans-serif;
   font-size: 100%;
-  font-weight:200;
+  font-weight: 200;
 }
 
 body::-webkit-scrollbar {
@@ -97,8 +98,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(100, 100, 100);
 }
-
-
 
 @media only screen and (max-width: 1000px) {
   html {

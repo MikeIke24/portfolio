@@ -1,8 +1,12 @@
 $green:#2ecc71 !global;
 #landing-screen {
-  width: 100vw;
-  height: 100vh;
-  background-color:whitesmoke;
+  width: 100%;
+  height: 100%;
+  background: #444444; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #444444 0%, #0f0f0f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #444444 0%,#0f0f0f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #444444 0%,#0f0f0f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#0f0f0f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   position: absolute;
   top: 0;
   left: 0;

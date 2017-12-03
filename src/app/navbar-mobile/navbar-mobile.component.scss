@@ -15,6 +15,11 @@ $gold:rgb(237, 150, 2) !global;
     width: 1.8rem;
     height: 2rem;
     position: fixed;
+    transition: all 0.3s ease;
+  }
+  #open-sidebar:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
   }
   #close-sidebar{
     color:hsl(0,0,75);

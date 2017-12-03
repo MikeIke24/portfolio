@@ -1,21 +1,57 @@
-
-$gold:rgb(237,
-150,
-2) !global;
+$gold:rgb(237, 150, 2) !global;
 .home-contain {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   height: 100vh;
-  background-color:whitesmoke;
+  padding: 10vh 0;
+  background: url('../../assets/home.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-attachment: fixed;
-  -webkit-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
-  -moz-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
-  box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0,0,0,0.35);
+  -webkit-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0px 3rem 3.5rem -0.5rem rgba(0, 0, 0, 0.35);
+}
+
+.quote {
+  color: white;
+  font-size: 2.5rem;
+  background-color: hsla(0, 0, 0, 0.7);
+  padding: 1rem 20vw;
+  text-align: center;
+}
+
+.author {
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .arrow {
-  color:#34495e;
-  font-size:4rem;
+  color: white;
+  font-size: 4rem;
   position: relative;
-  top:+50vh;
-  left:+50%;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 600) {
+  .quote {
+    width: 80% !important;
+    font-size: 2.0rem;
+  }
+  .home-contain {
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 500) {
+  .quote {
+    width: 90% !important;
+    font-size: 1.5rem;
+  }
 }
